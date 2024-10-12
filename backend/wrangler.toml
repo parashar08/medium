@@ -3,25 +3,5 @@ main = "src/index.ts"
 compatibility_date = "2024-10-12"
 compatibility_flags = [ "nodejs_compat" ]
 
-# [vars]
-# MY_VAR = "my-variable"
-
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-# [[r2_buckets]]
-# binding = "MY_BUCKET"
-# bucket_name = "my-bucket"
-
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "my-database"
-# database_id = ""
-
-# [ai]
-# binding = "AI"
-
-# [observability]
-# enabled = true
-# head_sampling_rate = 1
+[vars]
+DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMWI4NzRkMjUtOTY5ZC00ODRlLTk2OTktMTA0MzllYjU1MjA0IiwidGVuYW50X2lkIjoiMzZhMGFmZjYwNWY3MDNmODQ0YTAzNWJmM2IyNmY1NGFlZDIzODE1YTExYzgwYTYyN2IwMDY5MTU0ODljZWRiZiIsImludGVybmFsX3NlY3JldCI6IjcyYjU5MzgwLWJmNWUtNDg0Zi1hZTgzLTZhYjVmNDQ0YTY3ZiJ9.GkGnxaq0HkWDDfca6ZuK-UUNM60N9ttx1pVErhrkvYY"
