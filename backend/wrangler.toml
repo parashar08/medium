@@ -5,3 +5,4 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
 DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMWI4NzRkMjUtOTY5ZC00ODRlLTk2OTktMTA0MzllYjU1MjA0IiwidGVuYW50X2lkIjoiMzZhMGFmZjYwNWY3MDNmODQ0YTAzNWJmM2IyNmY1NGFlZDIzODE1YTExYzgwYTYyN2IwMDY5MTU0ODljZWRiZiIsImludGVybmFsX3NlY3JldCI6IjcyYjU5MzgwLWJmNWUtNDg0Zi1hZTgzLTZhYjVmNDQ0YTY3ZiJ9.GkGnxaq0HkWDDfca6ZuK-UUNM60N9ttx1pVErhrkvYY"
+JWT_SECRET = "secret"
